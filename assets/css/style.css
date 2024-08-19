@@ -25,7 +25,7 @@ h4,
 h5,
 h6 {
   font-family: "Cinzel", serif;
- }
+}
 
 p {
   line-height: 1.5;
@@ -97,7 +97,7 @@ img {
 
 .site-header.fixed-header {
   background-color: #097251;
-  border-color:#097251 ;
+  border-color: #097251;
 }
 
 .main-navbar ul {
@@ -229,6 +229,7 @@ img {
     background-position: 200% center;
   }
 }
+
 /* Banner Section  CSS End */
 
 
@@ -239,18 +240,21 @@ img {
   font-weight: 500;
   margin-bottom: 8px;
 }
+
 /* Home Page Intro CSS End */
 
 /* Home Page Featured Cards CSS Start */
-.section-heading{
+.section-heading {
   font-size: 60px;
   max-width: 850px;
   margin: 0 auto;
 }
+
 .heading-like {
   font-weight: 600;
   color: #097251;
 }
+
 .home-page-featured-cards-wrapper h2 {
   color: #fff;
 }
@@ -272,6 +276,7 @@ img {
   display: none;
   padding: 0 0 15px 0;
 }
+
 .btn-darkred-block {
   background: #097251;
   color: #fff;
@@ -291,8 +296,9 @@ img {
 .btn-darkred-block:hover {
   background: #fff;
   color: #000;
-border-color: #097251;
+  border-color: #097251;
 }
+
 .external-pages-link-btn {
   color: #000;
   background-color: #fff;
@@ -339,7 +345,8 @@ border-color: #097251;
   font-weight: 700;
 }
 
-.dollar-bag,.location {
+.dollar-bag,
+.location {
   margin-right: 8px;
   color: #097251;
   font-size: 17px;
@@ -377,6 +384,7 @@ border-color: #097251;
 .home-page-featured-cards-group ul li:last-child {
   margin-bottom: 0;
 }
+
 /* Home Page Featured Cards CSS End */
 
 /* Home Cards CSS Start */
@@ -450,6 +458,7 @@ border-color: #097251;
   font-size: 35px;
   max-width: 170px;
 }
+
 /* Home Cards CSS End*/
 
 /* Home Page Signup CSS Start */
@@ -496,7 +505,7 @@ input.pages-signup-input {
 
 .pages-signup-submit-button:hover {
   background-color: #fff;
-  border-color:#fff;
+  border-color: #fff;
 }
 
 .pages-signup-wrapper h3 {
@@ -506,7 +515,105 @@ input.pages-signup-input {
   line-height: normal;
   font-weight: 700;
 }
+
 /* Home Page Signup CSS End */
+
+/* Page Blog Cards CSS Start */
+section.pages-blog-cards {
+  overflow: hidden;
+  background: linear-gradient(to bottom , #097251,#2fe8ae);
+}
+.blog-cards-wrapper h2 {
+  color: #fff;
+}
+.blog-cards-wrapper p {
+  color: #fff;
+  font-weight:500 ;
+}
+
+
+.page-blog-cards {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+  border: 5px solid #bde902;
+  height: 300px;
+  overflow: hidden;
+}
+
+.blog-cards-content h3 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.blog-cards-content p {
+  font-size: 15px;
+  color: #fff;
+}
+
+.blog-card-btn {
+  color: #fff;
+    background: #097251;
+  outline: none;
+  padding: 10px 20px;
+  line-height: normal;
+  text-align: center;
+  transition: 0.4s all ease-in-out;
+  overflow: hidden;
+  border: 1px solid transparent;
+  font-weight: 600;
+  margin: 10px auto;
+}
+
+.blog-card-btn:hover {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.blog-cards-content {
+  padding: 20px;
+  position: absolute;
+  background: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  right: 100%;
+  transition: 0.5s all ease-in-out;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.page-blog-cards:hover .blog-cards-content {
+  top: 30%;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.blog-cards-image {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.blog-cards-image img {
+  transition: 0.5s all ease-in-out;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.page-blog-cards:hover .blog-cards-image img {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+/* Page Blog Cards CSS End */
 
 
 /* Pages Accordion Section CSS Start  */
@@ -532,7 +639,7 @@ input.pages-signup-input {
 }
 
 .accordion-button:not(.collapsed) {
-  background:#097251 ;
+  background: #097251;
   box-shadow: none;
   color: #fff;
   font-weight: 600;
@@ -551,7 +658,7 @@ input.pages-signup-input {
 .accordion-button {
   color: #fff;
   font-weight: 600;
-  background:#097251 ;
+  background: #097251;
 }
 
 .accordion {
@@ -580,5 +687,3 @@ input.pages-signup-input {
 }
 
 /* Pages Accordion Section CSS End  */
-
-

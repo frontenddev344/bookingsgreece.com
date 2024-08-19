@@ -12,13 +12,11 @@
 // Banner Text Animation JS Start
 
 var app = document.getElementById('app');
-
 var typewriter = new Typewriter(app, {
     loop: false
 });
 
 typewriter.typeString('ΚρατήσειςΕλλάδα')
-
     .start();
 
 // Banner Text Animation JS End
