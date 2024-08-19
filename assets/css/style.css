@@ -95,6 +95,11 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
+.site-header.fixed-header {
+  background-color: #097251;
+  border-color:#097251 ;
+}
+
 .main-navbar ul {
   display: flex;
   justify-content: center;
@@ -224,30 +229,23 @@ img {
     background-position: 200% center;
   }
 }
-
-
-
-
-
-
-
-
-
 /* Banner Section  CSS End */
 
 
 /* Home Page Intro CSS Start */
-.home-page-intro p {
+
+.pages-intro-section p {
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 8px;
 }
-
 /* Home Page Intro CSS End */
 
 /* Home Page Featured Cards CSS Start */
-.section-heading {
-  font-size: 40px;
+.section-heading{
+  font-size: 60px;
+  max-width: 850px;
+  margin: 0 auto;
 }
 .heading-like {
   font-weight: 600;
@@ -341,9 +339,9 @@ border-color: #097251;
   font-weight: 700;
 }
 
-.dollar-bag {
+.dollar-bag,.location {
   margin-right: 8px;
-  color: #bde902;
+  color: #097251;
   font-size: 17px;
 }
 
@@ -363,7 +361,7 @@ border-color: #097251;
 }
 
 .home-page-featured-cards-image img:hover {
-  transform: scale(1.1) rotate(-3deg);
+  transform: scale(1.2) rotate(3deg);
 }
 
 .home-page-featured-cards-group p {
@@ -379,10 +377,208 @@ border-color: #097251;
 .home-page-featured-cards-group ul li:last-child {
   margin-bottom: 0;
 }
-.dollar-bag {
-  margin-right: 8px;
-  color: #097251;
+/* Home Page Featured Cards CSS End */
+
+/* Home Cards CSS Start */
+.home-page-cards-section {
+  background-image: url("../images/home-page-cards-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  isolation: isolate;
+  background-color: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+  padding: 80px 0 50px 0;
+  overflow: hidden;
 }
 
+.home-page-cards {
+  position: relative;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 3px solid #097251;
+}
 
-/* Home Page Featured Cards CSS End */
+.home-page-cards-image {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.home-page-cards-image a {
+  width: 100%;
+  height: 100%;
+}
+
+.home-page-cards-image img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  transition: 0.7s all ease-in-out;
+}
+
+.home-page-cards:hover .home-page-cards-image img {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.home-page-cards-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+}
+
+.home-page-cards-content a {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-page-cards-content a h3 {
+  font-size: 35px;
+  max-width: 170px;
+}
+/* Home Cards CSS End*/
+
+/* Home Page Signup CSS Start */
+.pages-signup-section {
+  padding: 40px 0;
+}
+
+.pages-signup-wrapper {
+  text-align: center;
+  border: 5px double #097251;
+  padding: 30px 0;
+}
+
+.pages-signup-input-wrapper {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+input.pages-signup-input {
+  width: 40%;
+  display: inline-block;
+  font-size: 16px;
+  padding: 9px 10px;
+  outline: none;
+  border: 1px solid #097251;
+  line-height: normal;
+}
+
+.pages-signup-submit-button {
+  display: inline-block;
+  background: #097251;
+  padding: 9px 25px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: 0.3s all ease-in-out;
+  line-height: normal;
+}
+
+.pages-signup-submit-button:hover {
+  background-color: #fff;
+  border-color:#fff;
+}
+
+.pages-signup-wrapper h3 {
+  font-size: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: normal;
+  font-weight: 700;
+}
+/* Home Page Signup CSS End */
+
+
+/* Pages Accordion Section CSS Start  */
+.accordion-button::after {
+  flex-shrink: 0;
+  content: "\f067";
+  font-family: "FontAwesome";
+  background-image: none;
+  background-repeat: no-repeat;
+
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "\f068";
+  font-family: "FontAwesome";
+  background-image: none;
+  transform: rotate(0);
+  background: transparent;
+}
+
+.accordion {
+  --bs-accordion-btn-icon-transform: rotate(0);
+}
+
+.accordion-button:not(.collapsed) {
+  background:#097251 ;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.accordion-button {
+  color: #fff;
+  font-weight: 600;
+  background:#097251 ;
+}
+
+.accordion {
+  --bs-accordion-border-color: none;
+}
+
+.accordion-item {
+  margin-bottom: 12px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item:last-of-type {
+  border-radius: 0;
+}
+
+.accordion-item:first-of-type {
+  border-radius: 0;
+}
+
+.accordion-body {
+  background-color: #fff;
+  font-weight: 500;
+}
+
+/* Pages Accordion Section CSS End  */
+
+

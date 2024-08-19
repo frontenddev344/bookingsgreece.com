@@ -1,3 +1,14 @@
+
+  // Header Scroll JS Start
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      var header = $("header");
+      header.toggleClass("fixed-header", $(window).scrollTop() > 0);
+    });
+  });
+  // Header Scroll JS End
+
+
 // Banner Text Animation JS Start
 
 var app = document.getElementById('app');
@@ -29,3 +40,6 @@ typewriter.typeString('ΚρατήσειςΕλλάδα')
 AOS.init();
 
 // AOS JS End
+
+
+
