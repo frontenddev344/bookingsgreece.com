@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/* Global CSS Start */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cinzel", serif;
+ }
+
+p {
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* Global CSS End */
+
+
+/*Header CSS Start */
+.logo img {
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+  vertical-align: middle;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 9999;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.main-navbar ul li a {
+  padding: 10px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: normal;
+  position: relative;
+  font-size: 17px;
+}
+
+
+
+.main-navbar ul li a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #bde902;
+  transition: all 300ms ease-in-out;
+  position: absolute;
+  left: 0;
+  transform-origin: right;
+  top: 100%;
+  width: 0%;
+}
+
+.main-navbar ul li a:hover:after,
+.main-navbar ul li a.active:after {
+  width: 100%;
+}
+
+.main-navbar ul li a.active {
+  color: #bde902;
+}
+
+.close-icon {
+  display: none;
+}
+
+
+
+.menu-icon {
+  display: none;
+  color: #bde902;
+  width: 30px;
+  text-align: right;
+  cursor: pointer;
+  margin: auto 0;
+  font-size: 25px;
+  z-index: 60;
+}
+
+/* Header CSS End */
+
+
+/* Banner Section CSS Start */
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-image {
+  height: 650px;
+  width: 100%;
+}
+
+.banner-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0 0 0/60%);
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.banner-text h1 {
+  font-size: 70px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  text-transform: capitalize;
+  position: relative;
+}
+
+#app {
+  font-family: myFont;
+  text-align: center;
+  font-size: 50px;
+  background-color: #fff;
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Banner Section  CSS End */
+
+
+/* Home Page Intro CSS Start */
+.home-page-intro p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+/* Home Page Intro CSS End */
+
+/* Home Page Featured Cards CSS Start */
+.section-heading {
+  font-size: 40px;
+}
+.heading-like {
+  font-weight: 600;
+  color: #097251;
+}
+.home-page-featured-cards-wrapper h2 {
+  color: #fff;
+}
+
+.home-page-featured-cards-section {
+  background-image: url("../images/home-featured-cards-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  isolation: isolate;
+  background-color: rgba(0 0 0/70%);
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.subpage-exp-content {
+  margin-top: 10px;
+  display: none;
+  padding: 0 0 15px 0;
+}
+.btn-darkred-block {
+  background: #097251;
+  color: #fff;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  line-height: normal;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.btn-darkred-block:hover {
+  background: #fff;
+  color: #000;
+border-color: #097251;
+}
+.external-pages-link-btn {
+  color: #000;
+  background-color: #fff;
+  outline: none;
+  padding: 10px 20px;
+  line-height: normal;
+  text-align: center;
+  transition: 0.2s all ease-in-out;
+  overflow: hidden;
+  border: 1px solid #097251;
+  font-weight: 600;
+}
+
+.external-pages-link-btn:hover {
+  background: #097251;
+  color: #fff;
+}
+
+.text-left {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.home-page-featured-cards {
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+  background-color: #effaf6;
+}
+
+.home-page-featured-cards-group {
+  margin-bottom: 15px;
+}
+
+.home-page-featured-cards-content {
+  padding: 15px;
+}
+
+.home-page-featured-cards-group h3 {
+  font-size: 25px;
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
+.dollar-bag {
+  margin-right: 8px;
+  color: #bde902;
+  font-size: 17px;
+}
+
+.home-page-featured-cards-image {
+  overflow: hidden;
+  height: 250px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.home-page-featured-cards-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.5s all ease-in-out;
+}
+
+.home-page-featured-cards-image img:hover {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.home-page-featured-cards-group p {
+  margin-bottom: 10px;
+}
+
+.home-page-featured-cards-group ul li {
+  list-style: disc;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+
+.home-page-featured-cards-group ul li:last-child {
+  margin-bottom: 0;
+}
+.dollar-bag {
+  margin-right: 8px;
+  color: #097251;
+}
+
+
+/* Home Page Featured Cards CSS End */
