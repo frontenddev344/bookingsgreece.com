@@ -16,7 +16,7 @@ var typewriter = new Typewriter(app, {
     loop: false
 });
 
-typewriter.typeString('ΚρατήσειςΕλλάδα')
+typewriter.typeString('Κρατήσεις Ελλάδα')
     .start();
 
 // Banner Text Animation JS End
