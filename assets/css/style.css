@@ -235,10 +235,10 @@ img {
 
 /* Home Page Intro CSS Start */
 
-.pages-intro-section p {
-  font-size: 15px;
+.home-page-intro-wrapper p {
   font-weight: 500;
   margin-bottom: 8px;
+  font-size: 18px;
 }
 
 /* Home Page Intro CSS End */
