@@ -144,7 +144,7 @@ img {
 
 .main-navbar ul li a:hover:after,
 .main-navbar ul li a.active:after {
-  width: 100%;
+  width:95%;
 }
 
 .main-navbar ul li a.active {
