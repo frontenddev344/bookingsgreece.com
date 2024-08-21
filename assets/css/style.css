@@ -137,7 +137,7 @@ img {
   border-bottom: solid 1px #bde902;
   transition: all 300ms ease-in-out;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 100%;
   width: 0%;
 }
@@ -234,13 +234,11 @@ img {
 
 
 /* Home Page Intro CSS Start */
-
-.home-page-intro-wrapper p {
+.pages-intro-wrapper p {
   font-weight: 500;
   margin-bottom: 8px;
   font-size: 18px;
 }
-
 /* Home Page Intro CSS End */
 
 /* Home Page Featured Cards CSS Start */
@@ -372,13 +370,17 @@ img {
 }
 
 .home-page-featured-cards-group p {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .home-page-featured-cards-group ul li {
   list-style: disc;
   margin-left: 16px;
   margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .home-page-featured-cards-group ul li:last-child {
@@ -539,7 +541,8 @@ input.pages-signup-input {
   overflow: hidden;
   padding: 20px;
   background: #fff;
-border: 5px solid #097251;
+  border: 5px solid #097251;
+  border-radius: 20px;
 }
 .why-choose-us-card-image {
   width: 100%;
@@ -764,10 +767,6 @@ border: 5px solid #097251;
   padding: 0 20px;
 }
 
-.footer-menu-icons {
-  color: #bde902;
-  margin-right: 10px;
-}
 
 .footer-items h3 {
   font-size: 30px;
@@ -800,7 +799,7 @@ border: 5px solid #097251;
   border-bottom: solid 1px #bde902;
   transition: all 300ms ease-in-out;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 100%;
   width: 0%;
 }
@@ -860,5 +859,69 @@ border: 5px solid #097251;
 }
 
 /* Social Icons CSS End */
+
+/* Pages CSS Start */
+.pages-cards-section{
+  background-image: url("../images/pages-cards-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  isolation: isolate;
+  background-color: rgba(0 0 0/40%);
+  background-blend-mode: multiply;
+}
+.pages-cards-wrapper h2 {
+  color: #fff;
+}
+.pages-cards {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.pages-cards-image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.pages-cards-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.pages-cards-content{
+  padding: 10px;
+}
+.pages-cards-group {
+  margin-bottom: 15px;
+}
+.pages-cards-group h3 {
+  font-size: 25px;
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+.pages-cards-group p {
+  margin-bottom: 7px;
+    font-weight: 500;
+  font-size: 17px;
+}
+.pages-cards-group ul li {
+  list-style: disc;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+
+.pages-cards-group ul li:last-child {
+  margin-bottom: 0;
+}
+/* Pages CSS End*/
+
+
 
 
