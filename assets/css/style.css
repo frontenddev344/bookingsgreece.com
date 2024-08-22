@@ -28,7 +28,7 @@ h6 {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 2;
   padding: 0;
   margin: 0;
 }
@@ -178,7 +178,7 @@ img {
 }
 
 .banner-image {
-  height: 650px;
+  height: 700px;
   width: 100%;
 }
 
@@ -708,7 +708,7 @@ input.pages-signup-input {
 .accordion-button {
   color: #fff;
   font-weight: 600;
-  background: #097251;
+  background: rgb(9, 114, 81);
 }
 
 .accordion {
@@ -861,6 +861,9 @@ input.pages-signup-input {
 /* Social Icons CSS End */
 
 /* Pages CSS Start */
+.pages-banner-image{
+  height: 600px;
+}
 .pages-cards-section{
   background-image: url("../images/pages-cards-bg.jpg");
   background-position: center;
@@ -886,11 +889,15 @@ input.pages-signup-input {
   overflow: hidden;
   border-radius: 5px;
 }
-.pages-cards-image {
+.pages-cards-image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   display: block;
+  transition: 0.4s all ease-in-out;
+}
+.pages-cards-image img:hover{
+transform: scale(1.2)rotate(-3deg);
 }
 .pages-cards-content{
   padding: 10px;
@@ -923,5 +930,44 @@ input.pages-signup-input {
 /* Pages CSS End*/
 
 
+/* Other Pages CSS Start */
+.privacy-policy-group,.terms-conditions-group{
+  margin-bottom: 30px;
+  box-shadow: rgba(9, 114, 81, 0.25) 0px 20px 25px,rgba(9, 114, 81, 0.12) 0px -12px 150px, rgba(9, 114, 81, 0.12) 0px 4px 6px,rgba(9, 114, 81, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.privacy-policy-group:last-child,.terms-conditions-group:last-child
+{
+  margin-bottom: 0;
+}
+.privacy-policy-group h3 ,.terms-conditions-group h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #000;
+}
+.privacy-policy-group h4 ,.terms-conditions-group h4 {
+   margin-bottom: 10px;
+  font-weight: 600;
+  color: #000;
+}
+.privacy-policy-group p ,.terms-conditions-group p {
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #000;
+}
+.terms-conditions-group ul li{
+  list-style-type: disc;
+  margin-left: 16px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000;
+}
+/* Other Pages CSS End */
 
 
