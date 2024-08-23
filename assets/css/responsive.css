@@ -527,4 +527,10 @@
         font-size: 23px;
     }
 
+    /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
 }

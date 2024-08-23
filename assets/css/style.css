@@ -257,6 +257,7 @@ border-radius: 50%;
   font-weight: 700;
   text-transform: capitalize;
   position: relative;
+  text-align: center;
 }
 
 #app {
