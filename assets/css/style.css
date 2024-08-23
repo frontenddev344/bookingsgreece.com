@@ -883,7 +883,7 @@ input.pages-signup-input {
   background-size: cover;
   background-attachment: fixed;
   isolation: isolate;
-  background-color: rgba(0 0 0/40%);
+  background-color: rgba(0 0 0/70%);
   background-blend-mode: multiply;
 }
 .pages-cards-wrapper h2 {
@@ -892,7 +892,7 @@ input.pages-signup-input {
 .pages-cards {
   background: #fff;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   border-radius: 5px;
   overflow: hidden;
   border-image: linear-gradient(180deg, #0d9e70 30%, #bde902 80%) 1;
