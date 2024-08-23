@@ -883,6 +883,9 @@ input.pages-signup-input {
   margin-bottom: 30px;
   border-radius: 5px;
   overflow: hidden;
+  border-image: linear-gradient(to bottom, #0d9e70 30%, #bde902 80%) 1;
+  border-width: 6px;
+  border-style: solid;
 }
 .pages-cards-image {
   height: 100%;
