@@ -204,7 +204,7 @@ img {
   cursor: pointer;
   margin: auto 0;
   font-size: 30px;
-  z-index: 60;
+  z-index: 10;
 }
 .menu-ikon {
   border: 1px solid #bde902;

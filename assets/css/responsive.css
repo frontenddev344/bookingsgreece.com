@@ -15,6 +15,10 @@
         height: 550px;
     }
 
+    .pages-banner-image {
+        height: 500px;
+    }
+
     .pages-intro-wrapper p {
         font-size: 16px;
     }
@@ -100,12 +104,30 @@
         font-size: 28px;
     }
 
-
-
-
     .copyright p {
         font-size: 15px;
     }
+
+    /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+
+    .pages-cards-group h3 {
+        font-size: 25px;
+    }
+
+    .heading-like {
+        font-size: 16px;
+    }
+
+    .pages-cards-group ul li,
+    .pages-cards-group p {
+        font-size: 16px;
+    }
+
+    /* Pages CSS End */
 }
 
 
@@ -124,6 +146,10 @@
 
     .banner-image {
         height: 440px;
+    }
+
+    .pages-banner-image {
+        height: 400px;
     }
 
     #app {
@@ -230,6 +256,27 @@
         font-size: 14px;
     }
 
+    /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .pages-cards-group h3 {
+        font-size: 22px;
+    }
+
+    .heading-like {
+        font-size: 15px;
+    }
+
+    .pages-cards-group ul li,
+    .pages-cards-group p {
+        font-size: 15px;
+    }
+
+    /* Pages CSS End */
+
 }
 
 @media screen and (max-width:575px) {
@@ -251,6 +298,10 @@
 
     .banner-image {
         height: 350px;
+    }
+
+    .pages-banner-image {
+        height: 310px;
     }
 
     #app {
@@ -373,6 +424,35 @@
     .copyright p {
         font-size: 13px;
     }
+
+    /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .pages-cards {
+        padding: 10px;
+    }
+
+    .pages-cards-group h3 {
+        font-size: 20px;
+    }
+
+    .heading-like {
+        font-size: 14px;
+    }
+
+    .pages-cards-group ul li,
+    .pages-cards-group p {
+        font-size: 14px;
+    }
+
+    .pages-cards-content {
+        padding: 10px 5px;
+    }
+
+    /* Pages CSS End */
 }
 
 @media screen and (max-width:480px) {
@@ -390,6 +470,10 @@
 
     .banner-image {
         height: 270px;
+    }
+
+    .banner-image {
+        height: 240px;
     }
 
     #app {
@@ -533,4 +617,18 @@
         margin-top: 30px;
     }
 
+    .pages-cards-group h3 {
+        font-size: 18px;
+    }
+
+    .heading-like {
+        font-size: 13px;
+    }
+
+    .pages-cards-group ul li,
+    .pages-cards-group p {
+        font-size: 13px;
+    }
+
+    /* Pages CSS End */
 }
