@@ -347,6 +347,18 @@ img {
   margin-right: 8px;
   color: #097251;
   font-size: 17px;
+  animation: beat 1.7s linear infinite;
+}
+@keyframes beat {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.3);
+  }
 }
 
 .home-page-featured-cards-image {
@@ -883,7 +895,7 @@ input.pages-signup-input {
   margin-bottom: 30px;
   border-radius: 5px;
   overflow: hidden;
-  border-image: linear-gradient(to bottom, #0d9e70 30%, #bde902 80%) 1;
+  border-image: linear-gradient(180deg, #0d9e70 30%, #bde902 80%) 1;
   border-width: 6px;
   border-style: solid;
 }
