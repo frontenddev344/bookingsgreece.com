@@ -276,8 +276,7 @@ img {
 }
 
 .btn-darkred-block {
-  background: #097251;
-  color: #fff;
+  background: #0648c9;
   color: #fff;
   border: none;
   outline: none;
@@ -294,7 +293,7 @@ img {
 .btn-darkred-block:hover {
   background: #fff;
   color: #000;
-  border-color: #097251;
+  border-color: #0648c9;
 }
 
 .external-pages-link-btn {
@@ -306,12 +305,12 @@ img {
   text-align: center;
   transition: 0.2s all ease-in-out;
   overflow: hidden;
-  border: 1px solid #097251;
+  border: 1px solid #0648c9;
   font-weight: 600;
 }
 
 .external-pages-link-btn:hover {
-  background: #097251;
+  background: #0648c9;
   color: #fff;
 }
 
@@ -492,7 +491,7 @@ input.pages-signup-input {
 
 .pages-signup-submit-button {
   display: inline-block;
-  background: #097251;
+  background: #0648c9;
   padding: 9px 25px;
   font-size: 16px;
   color: #fff;
@@ -508,7 +507,8 @@ input.pages-signup-input {
 
 .pages-signup-submit-button:hover {
   background-color: #fff;
-  border-color: #fff;
+  border-color: #0648c9;
+  color: #000;
 }
 
 .pages-signup-wrapper h3 {
@@ -571,7 +571,7 @@ input.pages-signup-input {
 .pages-blog-cards-section{
   padding: 80px 0;
   overflow: hidden;
-  background: linear-gradient(to bottom , #097251,#2fe8ae);
+  background: linear-gradient(to top, #097251,#2aab82);
 }
 .blog-cards-wrapper h2 {
   color: #fff;
@@ -605,7 +605,7 @@ input.pages-signup-input {
 
 .blog-card-btn {
   color: #fff;
-    background: #097251;
+    background: #0648c9;
   outline: none;
   padding: 10px 20px;
   line-height: normal;
@@ -620,7 +620,7 @@ input.pages-signup-input {
 .blog-card-btn:hover {
   background: #fff;
   color: #000;
-  border-color: #fff;
+  border-color: #0648c9;
 }
 
 .blog-cards-content {
