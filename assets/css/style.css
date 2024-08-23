@@ -970,6 +970,37 @@ transform: scale(1.2)rotate(-3deg);
 }
 /* Other Pages CSS End */
 
+/* Blog Pages CSS Start */
+.blog-page-cards {
+  margin-bottom: 30px;
+  padding: 20px;
+  min-height: 200px;
+  box-shadow: rgba(9, 114, 81, 0.25) 0px 20px 25px,rgba(9, 114, 81, 0.12) 0px -12px 150px, rgba(9, 114, 81, 0.12) 0px 4px 6px,rgba(9, 114, 81, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius:8px ;
+}
+
+
+.blog-page-cards-wrapper>h2 {
+  font-size: 50px;
+  border: 1px solid #2a9875;
+  padding: 10px;
+  color: #097251;
+}
+
+.blog-page-cards-wrapper p {
+  max-width: 950px;
+  margin: auto;
+  font-size:17px;
+  font-weight: 500;
+}
+
+/* Blog Pages CSS End */
+
+
+
+
+
+
 /* Cookies CSS Start */
 .wrapper {
   position: fixed;
