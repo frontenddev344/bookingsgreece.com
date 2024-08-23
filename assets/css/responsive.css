@@ -1,42 +1,530 @@
 @media screen and (max-width:991px) {
-
-    .main-navbar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        padding: 50px;
-        background-color: #000;
-        transform: translateX(-100%);
-        transition: all 0.3s linear;
-        z-index: 100;
-        color: #fff;
-        flex-direction: column;
-        justify-content: center;
-        overflow: hidden;
-    }
-
-    .menuToggle .main-navbar {
-        transform: translateX(0);
-        justify-content: flex-start;
-    }
-
-    .main-navbar ul {
-        flex-direction: column;
-
-    }
-     
     .menu-icon {
-        display: block;
+        font-size: 24px;
     }
-    .close-icon {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        display: block;
-        color: #fff;
-        text-align: end;
-        z-index: 55;
+
+    .menu-ikon {
+        padding: 9px 11px;
     }
+
+    .logo img {
+        max-width: 260px;
+    }
+
+    .banner-image {
+        height: 550px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 16px;
+    }
+
+    .section-heading {
+        font-size: 45px;
+        max-width: 800px;
+    }
+
+    .home-page-featured-cards-group ul li,
+    .home-page-featured-cards-group p {
+        font-size: 15px;
+    }
+
+    .home-page-featured-cards-group h3 {
+        font-size: 23px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+
+    .home-page-featured-cards-image {
+        height: 210px;
+    }
+
+    input.pages-signup-input {
+        width: 55%;
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+
+    .pages-signup-submit-button {
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+
+    .why-choose-us-card-image {
+        height: 235px;
+    }
+
+    .why-choose-us-card-content h3 {
+        font-size: 28px;
+    }
+
+    .why-choose-us-card-content p {
+        font-size: 16px;
+    }
+
+    .blog-cards-content h3 {
+        font-size: 23px;
+    }
+
+    .blog-cards-content p {
+        font-size: 14px;
+    }
+
+    .blog-card-btn {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .page-blog-cards {
+        height: 280px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .accordion-body {
+        font-size: 15px;
+    }
+
+    .footer .footer-items ul li a {
+        font-size: 16px;
+    }
+
+    .footer-items h3 {
+        font-size: 28px;
+    }
+
+
+
+
+    .copyright p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .main-navbar {
+        width: 45%;
+    }
+
+    .logo img {
+        max-width: 250px;
+    }
+
+    .banner-image {
+        height: 440px;
+    }
+
+    #app {
+        font-size: 45px;
+        margin-top: 35px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 14px;
+    }
+
+    .section-heading {
+        font-size: 40px;
+    }
+
+    .home-page-featured-cards-group h3 {
+        font-size: 22px;
+    }
+
+    .home-page-featured-cards-group ul li,
+    .home-page-featured-cards-group p {
+        font-size: 15px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        padding: 7px 10px;
+        font-size: 15px;
+    }
+
+    input.pages-signup-input {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .pages-signup-submit-button {
+        font-size: 14px;
+    }
+
+    .why-choose-us-card-image {
+        height: 220px;
+    }
+
+    .why-choose-us-card-content {
+        padding: 10px 0;
+    }
+
+    .why-choose-us-card-content h3 {
+        font-size: 26px;
+    }
+
+    .why-choose-us-card-content p {
+        font-size: 14px;
+    }
+
+    .page-blog-cards:hover .blog-cards-content {
+        top: 20%;
+    }
+
+    .blog-cards-content {
+        padding: 10px;
+    }
+
+    .blog-cards-content h3 {
+        font-size: 21px;
+    }
+
+    .blog-cards-content p {
+        font-size: 14px;
+    }
+
+    .page-blog-cards {
+        height: 260px;
+    }
+
+    .accordion-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+    }
+
+    .footer .footer-items ul li a {
+        font-size: 14px;
+    }
+
+    .footer-items {
+        padding: 0;
+    }
+
+    .footer-items h3 {
+        font-size: 27px;
+    }
+
+    .social-icons i {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .copyright p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .main-navbar {
+        width: 100%;
+    }
+
+    .menu-icon {
+        font-size: 24px;
+    }
+
+    .menu-ikon {
+        padding: 8px 10px;
+    }
+
+    .logo img {
+        max-width: 200px;
+    }
+
+    .banner-image {
+        height: 350px;
+    }
+
+    #app {
+        font-size: 40px;
+        margin-top: 35px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 13px;
+    }
+
+    .home-page-featured-cards-content {
+        padding: 15px 5px;
+    }
+
+    .home-page-featured-cards-group h3 {
+        font-size: 21px;
+    }
+
+    .home-page-featured-cards-group ul li,
+    .home-page-featured-cards-group p {
+        font-size: 14px;
+    }
+
+    .section-heading {
+        font-size: 35px;
+    }
+
+    .home-page-featured-cards {
+        padding: 10px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+
+    .home-page-cards {
+        height: 250px;
+    }
+
+    input.pages-signup-input {
+        width: 80%;
+        font-size: 13px;
+        padding: 9px 10px;
+    }
+
+    .pages-signup-submit-button {
+        padding: 6px 10px;
+        font-size: 15px;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+
+    .why-choose-us-cards {
+        padding: 15px;
+    }
+
+    .why-choose-us-card-image {
+        height: 200px;
+    }
+
+    .why-choose-us-card-content h3 {
+        font-size: 24px;
+    }
+
+    .why-choose-us-card-image img {
+        object-fit: cover;
+    }
+
+    .blog-cards-content h3 {
+        font-size: 21px;
+    }
+
+    .blog-cards-content p {
+        font-size: 13px;
+    }
+
+    .blog-card-btn {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .page-blog-cards {
+        height: 240px;
+    }
+
+    .accordion-button {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .accordion-body {
+        font-size: 13px;
+    }
+
+    .footer .footer-items ul li a {
+        font-size: 14px;
+    }
+
+    .logo-bottom {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .logo-bottom img {
+        max-width: 230px;
+    }
+
+    .footer-links,
+    .footer-quick-links {
+        width: 50%;
+    }
+
+    .footer-items h3 {
+        font-size: 25px;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .logo img {
+        max-width: 160px;
+    }
+
+    .menu-icon {
+        font-size: 20px;
+    }
+
+    .menu-ikon {
+        padding: 6px 7px;
+    }
+
+    .banner-image {
+        height: 270px;
+    }
+
+    #app {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 12px;
+    }
+
+    .section-heading {
+        font-size: 30px;
+    }
+
+    .home-page-featured-cards-image {
+        height: 180px;
+    }
+
+    .home-page-featured-cards-group h3 {
+        font-size: 20px;
+    }
+
+    .heading-like {
+        font-size: 14px;
+    }
+
+    .dollar-bag,
+    .location {
+        font-size: 15px;
+    }
+
+    .home-page-featured-cards-group p,
+    .home-page-featured-cards-group ul li {
+        font-size: 13px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+
+    .home-page-cards {
+        height: 200px;
+    }
+
+    .home-page-cards-content a h3 {
+        font-size: 30px;
+    }
+
+    .pages-signup-wrapper h3 {
+        font-size: 17px;
+        padding: 0 10px;
+    }
+
+    input.pages-signup-input {
+        width: 90%;
+        font-size: 12px;
+        padding: 9px 10px;
+    }
+
+    .pages-signup-submit-button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .why-choose-us-card-image {
+        height: 180px;
+    }
+
+    .why-choose-us-card-content h3 {
+        font-size: 22px;
+    }
+
+    .why-choose-us-card-content p {
+        font-size: 13px;
+    }
+
+    .page-blog-cards {
+        height: 220px;
+    }
+
+
+    .blog-cards-content h3 {
+        font-size: 19px;
+    }
+
+    .blog-cards-content p {
+        font-size: 12px;
+    }
+
+    .blog-card-btn {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .accordion-body {
+        font-size: 12px;
+    }
+
+    .footer .footer-items ul li a {
+        font-size: 14px;
+    }
+
+    .footer-items {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-items:last-child {
+        margin-bottom: 0;
+    }
+
+    .logo-bottom img {
+        max-width: 200px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .footer-items h3 {
+        font-size: 23px;
+    }
+
 }

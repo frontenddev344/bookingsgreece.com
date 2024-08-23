@@ -28,7 +28,7 @@ h6 {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.7;
   padding: 0;
   margin: 0;
 }
@@ -112,6 +112,8 @@ img {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
+  width: 30%;
+  z-index: 100;
 }
 .desktop-menu {
   display: flex;
@@ -130,8 +132,7 @@ img {
   text-decoration: none;
   line-height: normal;
   position: relative;
-  font-weight: 500;
-  font-size: 20px;
+   font-size: 18px;
 }
 .main-navbar ul li a:after {
   display: block;
@@ -158,7 +159,7 @@ img {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 25%;
+  width: 35%;
   background-color: #097251;
   transform: translateX(-100%);
   transition: all 0.7s ease;
@@ -171,9 +172,10 @@ img {
   flex-direction: column;
   z-index: 50;
   width: 100%;
-  gap: 0;
   justify-content: flex-start;
-  padding: 50px 10px;
+  padding: 80px 10px;
+  align-items: flex-start;
+  gap: 5px;
 }
 .menuToggle .main-navbar {
   transform: translateX(0);
@@ -258,7 +260,6 @@ border-radius: 50%;
 }
 
 #app {
-  font-family: myFont;
   text-align: center;
   font-size: 50px;
   background-color: #fff;
@@ -543,7 +544,7 @@ input.pages-signup-input {
   padding: 9px 10px;
   outline: none;
   border: 1px solid #097251;
-  line-height: normal;
+  line-height: 16px;
 }
 
 .pages-signup-submit-button {
@@ -559,7 +560,7 @@ input.pages-signup-input {
   font-weight: 600;
   border: 1px solid transparent;
   transition: 0.3s all ease-in-out;
-  line-height: normal;
+  line-height: 16px;
 }
 
 .pages-signup-submit-button:hover {
@@ -603,7 +604,8 @@ input.pages-signup-input {
 }
 .why-choose-us-card-image {
   width: 100%;
-  height: 250px;
+  max-height: 250px;
+  height: 100%;
 }
 .why-choose-us-card-image img {
   height: 100%;
@@ -730,7 +732,9 @@ input.pages-signup-input {
   font-family: "FontAwesome";
   background-image: none;
   background-repeat: no-repeat;
-
+min-width: 30px;
+text-align: center;
+vertical-align: middle;
 }
 
 .accordion-button:not(.collapsed)::after {
