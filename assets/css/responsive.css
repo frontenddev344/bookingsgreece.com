@@ -1,15 +1,13 @@
 @media screen and (max-width:1200px) {
     .blog1 .blog-page-cards {
-        min-height: 220px;
-        }
-        .blog2 .blog-page-cards {
-            min-height: 270px;
-            }
-            .blog3 .blog-page-cards {
-                min-height: 220px;
-                }
-
-
+        height: 220px;
+    }
+    .blog2 .blog-page-cards {
+        height: 270px;
+    }
+    .blog4 .blog-page-cards {
+        height: 215px;
+    }
 
 }
 
@@ -175,12 +173,16 @@
     .blog-page-cards-wrapper p {
         font-size: 15px;
     }
-    .blog-page-cards {
-        min-height: 230px;
+    .blog2 .blog-page-cards {
+        height: 265px;
+    }
+    .blog3 .blog-page-cards {
+        height: 220px;
     }
     .blog4 .blog-page-cards {
-        min-height: 240px;
+        height: 220px;
     }
+
     /* Other Pages CSS End*/
 }
 
@@ -332,7 +334,7 @@
     .pages-cards-image {
         height: 240px;
     }
-   
+
     /* Pages CSS End */
     /* Other Pages CSS Start */
     .privacy-policy-group h3,
@@ -367,12 +369,13 @@
     .blog-page-cards-wrapper p {
         font-size: 15px;
     }
-    .blog-page-cards {
-        min-height: 160px;
+
+    .blog1 .blog-page-cards {
+        height: 294px;
     }
-    .blog4 .blog-page-cards {
-        min-height: 175px;
-    }
+
+
+
 
     /* Other Pages CSS End*/
 
@@ -590,7 +593,7 @@
     .blog-page-cards-wrapper p {
         font-size: 14px;
     }
-  
+
     /* Other Pages CSS End*/
 }
 
@@ -808,7 +811,7 @@
         font-size: 13px;
     }
 
-   
+
 
     /* Other Pages CSS End*/
 }
