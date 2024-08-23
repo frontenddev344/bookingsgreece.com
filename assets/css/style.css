@@ -78,7 +78,7 @@ img {
 .logo img {
   text-align: center;
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   vertical-align: middle;
 }
 
@@ -94,6 +94,7 @@ img {
   backdrop-filter: blur(20px);
   border-bottom: 1px solid #fff;
   transition: all 0.3s ease-in-out;
+
 }
 
 .site-header.fixed-header {
@@ -113,20 +114,18 @@ img {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 10px 0;
+  padding: 6px 0;
 }
 
 .main-navbar ul li a {
-  padding: 10px;
+  padding: 8px;
   display: inline-block;
   color: #fff;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
-  text-transform: capitalize;
   line-height: normal;
   position: relative;
-  font-size: 17px;
 }
 
 
