@@ -660,7 +660,7 @@ input.pages-signup-input {
 }
 
 .page-blog-cards:hover .blog-cards-image img {
-  transform: scale(1.1) rotate(1deg);
+  transform: scale(1.1) rotate(2deg);
 }
 
 /* Page Blog Cards CSS End */
@@ -734,6 +734,7 @@ input.pages-signup-input {
 .accordion-body {
   background-color: #fff;
   font-weight: 500;
+  font-size: 17px;
 }
 
 /* Pages Accordion Section CSS End  */
