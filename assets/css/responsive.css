@@ -626,17 +626,17 @@
 
     /* Other Pages CSS End*/
 
-        /* Cookies CSS Start */
-        .info p {
-            font-size: 13px;
-        }
-    
-        .button {
-            width: calc(50% / 2 - 10px);
-            font-size: 13px;
-        }
-    
-        /* Cookies CSS End */
+    /* Cookies CSS Start */
+    .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        width: calc(50% / 2 - 10px);
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
 }
 
 @media screen and (max-width:480px) {
@@ -852,21 +852,22 @@
     .blog-page-cards-wrapper p {
         font-size: 13px;
     }
+
     /* Other Pages CSS End*/
 
-        /* Cookies CSS Start */
-        .info p {
-            font-size: 12px;
-        }
-    
-        .buttons {
-            gap: 10px;
-        }
-    
-        .button {
-            width: calc(80% / 2 - 10px);
-            font-size: 13px;
-        }
-    
-        /* Cookies CSS End */
+    /* Cookies CSS Start */
+    .info p {
+        font-size: 12px;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .button {
+        width: calc(80% / 2 - 10px);
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
 }
