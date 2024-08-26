@@ -1,17 +1,3 @@
-@media screen and (max-width:1200px) {
-    .blog1 .blog-page-cards {
-        height: 220px;
-    }
-
-    .blog2 .blog-page-cards {
-        height: 270px;
-    }
-
-    .blog4 .blog-page-cards {
-        height: 215px;
-    }
-
-}
 
 
 @media screen and (max-width:991px) {
@@ -175,18 +161,7 @@
     .blog-page-cards-wrapper p {
         font-size: 15px;
     }
-
-    .blog2 .blog-page-cards {
-        height: 265px;
-    }
-
-    .blog3 .blog-page-cards {
-        height: 220px;
-    }
-
-    .blog4 .blog-page-cards {
-        height: 220px;
-    }
+  
 
     /* Other Pages CSS End*/
 
