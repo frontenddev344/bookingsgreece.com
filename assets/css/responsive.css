@@ -2,9 +2,11 @@
     .blog1 .blog-page-cards {
         height: 220px;
     }
+
     .blog2 .blog-page-cards {
         height: 270px;
     }
+
     .blog4 .blog-page-cards {
         height: 215px;
     }
@@ -173,17 +175,32 @@
     .blog-page-cards-wrapper p {
         font-size: 15px;
     }
+
     .blog2 .blog-page-cards {
         height: 265px;
     }
+
     .blog3 .blog-page-cards {
         height: 220px;
     }
+
     .blog4 .blog-page-cards {
         height: 220px;
     }
 
     /* Other Pages CSS End*/
+
+    /* Cookies CSS Start */
+    .info p {
+        font-size: 14px;
+    }
+
+    .button {
+        width: calc(55% / 2 - 10px);
+        font-size: 14px;
+    }
+
+    /* Cookies CSS End */
 }
 
 
@@ -374,10 +391,23 @@
         height: 294px;
     }
 
-
-
-
     /* Other Pages CSS End*/
+
+    /* Cookies CSS Start */
+    .wrapper {
+        padding: 20px 10px;
+    }
+
+    .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    /* Cookies CSS End */
 
 }
 
@@ -595,6 +625,18 @@
     }
 
     /* Other Pages CSS End*/
+
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 13px;
+        }
+    
+        .button {
+            width: calc(50% / 2 - 10px);
+            font-size: 13px;
+        }
+    
+        /* Cookies CSS End */
 }
 
 @media screen and (max-width:480px) {
@@ -810,8 +852,21 @@
     .blog-page-cards-wrapper p {
         font-size: 13px;
     }
-
-
-
     /* Other Pages CSS End*/
+
+        /* Cookies CSS Start */
+        .info p {
+            font-size: 12px;
+        }
+    
+        .buttons {
+            gap: 10px;
+        }
+    
+        .button {
+            width: calc(80% / 2 - 10px);
+            font-size: 13px;
+        }
+    
+        /* Cookies CSS End */
 }
