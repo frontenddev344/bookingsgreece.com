@@ -546,7 +546,7 @@ input.pages-signup-input {
   padding: 9px 10px;
   outline: none;
   border: 1px solid #097251;
-  line-height: 16px;
+  line-height: 20px;
 }
 
 .pages-signup-submit-button {
@@ -556,13 +556,12 @@ input.pages-signup-input {
   font-size: 16px;
   color: #fff;
   outline: none;
-  border: none;
   margin-left: 5px;
   cursor: pointer;
   font-weight: 600;
   border: 1px solid transparent;
   transition: 0.3s all ease-in-out;
-  line-height: 16px;
+  line-height: 20px;
 }
 
 .pages-signup-submit-button:hover {
