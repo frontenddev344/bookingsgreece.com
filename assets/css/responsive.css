@@ -100,6 +100,12 @@
     .accordion-body {
         font-size: 15px;
     }
+    .disclaimer-wrapper h3 {
+        font-size: 31px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 16px;
+    }
 
     .footer .footer-items ul li a {
         font-size: 16px;
@@ -284,6 +290,12 @@
 
     .accordion-body {
         font-size: 14px;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 29px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 15px;
     }
 
     .footer .footer-items ul li a {
@@ -509,6 +521,12 @@
 
     .accordion-body {
         font-size: 13px;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 27px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 14px;
     }
 
     .footer .footer-items ul li a {
@@ -742,6 +760,17 @@
     .accordion-body {
         font-size: 12px;
     }
+    .disclaimer-wrapper h3 {
+        font-size: 25px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 13px;
+    }
+    .disclaimer-wrapper h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
     .footer .footer-items ul li a {
         font-size: 14px;

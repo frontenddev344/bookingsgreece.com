@@ -810,14 +810,12 @@ vertical-align: middle;
 
 .disclaimer-wrapper h3 {
   font-size: 35px;
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 10px;
+  font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .disclaimer-wrapper p {
   font-size:17px ;
-  color: #545556;
   margin-bottom: 10px;
   font-weight: 500;
 }
