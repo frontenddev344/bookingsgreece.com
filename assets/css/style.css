@@ -1103,7 +1103,7 @@ transform: scale(1.2)rotate(-3deg);
 }
 
 .button {
-  width: calc(30% / 2 - 10px);
+  width: calc(50% / 2 - 10px);
   padding: 8px 0;
   border: none;
   border-radius: 4px;
