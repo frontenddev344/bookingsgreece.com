@@ -380,6 +380,7 @@
     .button {
         font-size: 13px;
         padding: 6px;
+        width: calc(80% / 2 - 10px);
     }
 
     /* Cookies CSS End */
