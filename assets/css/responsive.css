@@ -38,6 +38,9 @@
     .home-page-featured-cards-group h3 {
         font-size: 23px;
     }
+    .home-page-cards-content a h3 {
+        max-width: 200px;
+    }
 
     .btn-darkred-block,
     .external-pages-link-btn {
@@ -119,6 +122,7 @@
     .pages-cards-group h3 {
         font-size: 25px;
     }
+    
 
     .heading-like {
         font-size: 16px;
