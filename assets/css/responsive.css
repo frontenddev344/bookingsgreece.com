@@ -74,6 +74,9 @@
     .why-choose-us-card-content p {
         font-size: 16px;
     }
+    .page-blog-cards:hover .blog-cards-content {
+        top: 20%;
+    }
 
     .blog-cards-content h3 {
         font-size: 23px;
@@ -264,7 +267,7 @@
     }
 
     .page-blog-cards:hover .blog-cards-content {
-        top: 20%;
+        top: 10%;
     }
 
     .blog-cards-content {
@@ -495,6 +498,9 @@
 
     .why-choose-us-card-image img {
         object-fit: cover;
+    }
+    .page-blog-cards:hover .blog-cards-content {
+        top: 40%;
     }
 
     .blog-cards-content h3 {
