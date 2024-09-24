@@ -109,6 +109,7 @@ img {
   align-items: center;
   flex-direction: column;
 }
+
 .main-navbar {
   display: flex;
   justify-content: space-evenly;
@@ -116,6 +117,7 @@ img {
   width: 30%;
   z-index: 100;
 }
+
 .desktop-menu {
   display: flex;
   align-items: center;
@@ -133,8 +135,9 @@ img {
   text-decoration: none;
   line-height: normal;
   position: relative;
-   font-size: 18px;
+  font-size: 18px;
 }
+
 .main-navbar ul li a:after {
   display: block;
   content: '';
@@ -148,7 +151,7 @@ img {
 
 .main-navbar ul li a:hover:after,
 .main-navbar ul li a.active:after {
-  width:95%;
+  width: 95%;
 }
 
 .main-navbar ul li a.active {
@@ -169,6 +172,7 @@ img {
   color: #fff;
   overflow: hidden;
 }
+
 .main-navbar ul {
   flex-direction: column;
   z-index: 50;
@@ -178,9 +182,11 @@ img {
   align-items: flex-start;
   gap: 5px;
 }
+
 .menuToggle .main-navbar {
   transform: translateX(0);
 }
+
 .close-icon {
   position: absolute;
   top: 20px;
@@ -195,9 +201,10 @@ img {
   border-radius: 5px;
   transition: 0.3s all ease;
 }
+
 .close-icon:hover {
-color: #fff;
-border-color: #fff;
+  color: #fff;
+  border-color: #fff;
 }
 
 .menu-icon {
@@ -208,15 +215,18 @@ border-color: #fff;
   font-size: 30px;
   z-index: 10;
 }
+
 .menu-ikon {
   border: 1px solid #bde902;
   padding: 10px 15px;
   transition: 0.3s all ease-in-out;
 }
+
 .menu-ikon:hover {
-color: #fff;
-border-color: #fff;
+  color: #fff;
+  border-color: #fff;
 }
+
 /* Header CSS End */
 
 
@@ -288,11 +298,12 @@ border-color: #fff;
   margin-bottom: 8px;
   font-size: 18px;
 }
+
 /* Home Page Intro CSS End */
 
 /* Home Page Featured Cards CSS Start */
 .section-heading {
-  font-size:55px;
+  font-size: 55px;
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -398,6 +409,7 @@ border-color: #fff;
   font-size: 17px;
   animation: beat 1.7s linear infinite;
 }
+
 @keyframes beat {
 
   0%,
@@ -582,7 +594,7 @@ input.pages-signup-input {
 /* Home Page Signup CSS End */
 
 /* Home Page Why Choose Us CSS Start */
-.why-choose-us-section{
+.why-choose-us-section {
   background-image: url("../images/why-choose-us-bg.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -592,6 +604,7 @@ input.pages-signup-input {
   background-color: rgba(0 0 0/70%);
   background-blend-mode: multiply;
 }
+
 .why-choose-us-wrapper h2 {
   color: #fff;
 }
@@ -604,23 +617,28 @@ input.pages-signup-input {
   border: 5px solid #097251;
   border-radius: 20px;
 }
+
 .why-choose-us-card-image {
   width: 100%;
   max-height: 250px;
   height: 100%;
 }
+
 .why-choose-us-card-image img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
-.why-choose-us-card-content h3{
+
+.why-choose-us-card-content h3 {
   height: 100%;
   width: 100%;
 }
+
 .why-choose-us-card-content h3 {
   font-size: 40px;
 }
+
 .why-choose-us-card-content p {
   font-weight: 500;
   font-size: 18px;
@@ -629,17 +647,19 @@ input.pages-signup-input {
 /* Home Page Why Choose Us CSS End */
 
 /* Page Blog Cards CSS Start */
-.pages-blog-cards-section{
+.pages-blog-cards-section {
   padding: 80px 0;
   overflow: hidden;
-  background: linear-gradient(to top, #097251,#2aab82);
+  background: linear-gradient(to top, #097251, #2aab82);
 }
+
 .blog-cards-wrapper h2 {
   color: #fff;
 }
+
 .blog-cards-wrapper p {
   color: #fff;
-  font-weight:500 ;
+  font-weight: 500;
 }
 
 
@@ -666,7 +686,7 @@ input.pages-signup-input {
 
 .blog-card-btn {
   color: #fff;
-    background: #0648c9;
+  background: #0648c9;
   outline: none;
   padding: 10px 20px;
   line-height: normal;
@@ -734,9 +754,9 @@ input.pages-signup-input {
   font-family: "FontAwesome";
   background-image: none;
   background-repeat: no-repeat;
-min-width: 30px;
-text-align: center;
-vertical-align: middle;
+  min-width: 30px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -752,7 +772,7 @@ vertical-align: middle;
 }
 
 .accordion-button:not(.collapsed) {
-   background: #097251;
+  background: #097251;
   box-shadow: none;
   color: #fff;
   font-weight: 600;
@@ -804,21 +824,22 @@ vertical-align: middle;
 
 
 /* Disclaimer CSS Start */
-.disclaimer{
-    box-shadow: #097251 0px 2px 20px;
+.disclaimer {
+  box-shadow: #097251 0px 2px 20px;
 }
 
 .disclaimer-wrapper h3 {
   font-size: 35px;
   font-weight: 600;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .disclaimer-wrapper p {
-  font-size:17px ;
+  font-size: 17px;
   margin-bottom: 10px;
   font-weight: 500;
 }
+
 /* Disclaimer CSS End */
 
 /* Footer CSS Start */
@@ -855,7 +876,7 @@ vertical-align: middle;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 12px;
-  color:#bde902 ;
+  color: #bde902;
 }
 
 .footer-items .social-icons {
@@ -925,7 +946,7 @@ vertical-align: middle;
   border-radius: 50%;
   font-size: 17px;
   background-color: #fffcfc;
- color: #000;
+  color: #000;
   line-height: normal;
   margin: 0 1px;
   transition: 0.3s all ease-in-out;
@@ -936,7 +957,7 @@ vertical-align: middle;
 }
 
 .social-icons i:hover {
-  background: linear-gradient(45deg, #bde902,#0d9e70);
+  background: linear-gradient(45deg, #bde902, #0d9e70);
 
   transform: translateX(2px);
 }
@@ -944,10 +965,11 @@ vertical-align: middle;
 /* Social Icons CSS End */
 
 /* Pages CSS Start */
-.pages-banner-image{
+.pages-banner-image {
   height: 600px;
 }
-.pages-cards-section{
+
+.pages-cards-section {
   background-image: url("../images/pages-cards-bg.jpg");
   background-position: center;
   background-size: cover;
@@ -956,9 +978,11 @@ vertical-align: middle;
   background-color: rgba(0 0 0/70%);
   background-blend-mode: multiply;
 }
+
 .pages-cards-wrapper h2 {
   color: #fff;
 }
+
 .pages-cards {
   background: #fff;
   padding: 20px;
@@ -969,12 +993,14 @@ vertical-align: middle;
   border-width: 6px;
   border-style: solid;
 }
+
 .pages-cards-image {
   height: 100%;
   width: 100%;
   overflow: hidden;
   border-radius: 5px;
 }
+
 .pages-cards-image img {
   height: 100%;
   width: 100%;
@@ -982,25 +1008,31 @@ vertical-align: middle;
   display: block;
   transition: 0.4s all ease-in-out;
 }
-.pages-cards-image img:hover{
-transform: scale(1.2)rotate(-3deg);
+
+.pages-cards-image img:hover {
+  transform: scale(1.2)rotate(-3deg);
 }
-.pages-cards-content{
+
+.pages-cards-content {
   padding: 10px;
 }
+
 .pages-cards-group {
   margin-bottom: 15px;
 }
+
 .pages-cards-group h3 {
   font-size: 25px;
   margin-bottom: 7px;
   font-weight: 700;
 }
+
 .pages-cards-group p {
   margin-bottom: 7px;
-    font-weight: 500;
+  font-weight: 500;
   font-size: 17px;
 }
+
 .pages-cards-group ul li {
   list-style: disc;
   margin-left: 16px;
@@ -1013,39 +1045,49 @@ transform: scale(1.2)rotate(-3deg);
 .pages-cards-group ul li:last-child {
   margin-bottom: 0;
 }
+
 /* Pages CSS End*/
 
 
 /* Other Pages CSS Start */
-.privacy-policy-group,.terms-conditions-group{
+.privacy-policy-group,
+.terms-conditions-group {
   margin-bottom: 30px;
-  box-shadow: rgba(9, 114, 81, 0.25) 0px 20px 25px,rgba(9, 114, 81, 0.12) 0px -12px 150px, rgba(9, 114, 81, 0.12) 0px 4px 6px,rgba(9, 114, 81, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(9, 114, 81, 0.25) 0px 20px 25px, rgba(9, 114, 81, 0.12) 0px -12px 150px, rgba(9, 114, 81, 0.12) 0px 4px 6px, rgba(9, 114, 81, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   padding: 20px;
   border-radius: 10px;
 }
-.privacy-policy-group:last-child,.terms-conditions-group:last-child
-{
+
+.privacy-policy-group:last-child,
+.terms-conditions-group:last-child {
   margin-bottom: 0;
 }
-.privacy-policy-group h3 ,.terms-conditions-group h3 {
+
+.privacy-policy-group h3,
+.terms-conditions-group h3 {
   font-size: 30px;
   margin-bottom: 10px;
   font-weight: 600;
   color: #000;
 }
-.privacy-policy-group h4 ,.terms-conditions-group h4 {
-   margin-bottom: 10px;
+
+.privacy-policy-group h4,
+.terms-conditions-group h4 {
+  margin-bottom: 10px;
   font-weight: 600;
   color: #000;
 }
-.privacy-policy-group p ,.terms-conditions-group p {
+
+.privacy-policy-group p,
+.terms-conditions-group p {
   font-size: 17px;
   margin-bottom: 10px;
   font-weight: 500;
   line-height: 1.7;
   color: #000;
 }
-.terms-conditions-group ul li{
+
+.terms-conditions-group ul li {
   list-style-type: disc;
   margin-left: 16px;
   margin-bottom: 8px;
@@ -1054,6 +1096,7 @@ transform: scale(1.2)rotate(-3deg);
   line-height: 1.5;
   color: #000;
 }
+
 /* Other Pages CSS End */
 
 /* Blog Pages CSS Start */
@@ -1061,8 +1104,8 @@ transform: scale(1.2)rotate(-3deg);
   margin-bottom: 10px;
   padding: 20px;
   min-height: 200px;
-  box-shadow: rgba(9, 114, 81, 0.25) 0px 20px 25px,rgba(9, 114, 81, 0.12) 0px -12px 150px, rgba(9, 114, 81, 0.12) 0px 4px 6px,rgba(9, 114, 81, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  border-radius:8px ;
+  box-shadow: rgba(9, 114, 81, 0.25) 0px 20px 25px, rgba(9, 114, 81, 0.12) 0px -12px 150px, rgba(9, 114, 81, 0.12) 0px 4px 6px, rgba(9, 114, 81, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
   height: 100%;
 }
 
@@ -1077,7 +1120,7 @@ transform: scale(1.2)rotate(-3deg);
 .blog-page-cards-wrapper p {
   max-width: 950px;
   margin: auto;
-  font-size:17px;
+  font-size: 17px;
   font-weight: 500;
 }
 
@@ -1093,7 +1136,7 @@ transform: scale(1.2)rotate(-3deg);
   position: fixed;
   bottom: -100%;
   width: 100%;
-  background-color:#097251;
+  background-color: #097251;
   padding: 15px 25px 22px;
   transition: all 1s ease-in-out;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -1136,7 +1179,7 @@ transform: scale(1.2)rotate(-3deg);
 
 .button:hover {
   color: #000;
-  border-color:#000;
+  border-color: #000;
 }
 
 /* Cookies CSS End */
@@ -1251,6 +1294,14 @@ input.form-control.sub_btn:hover {
   background: transparent;
   border: 1px solid #0e46a31a;
   color: var(--primary-color);
+}
+
+.ssl img {
+  width: 100%;
+  max-width: 10%;
+  margin: auto;
+  text-align: center;
+  display: block;
 }
 
 /* contact styling end */
